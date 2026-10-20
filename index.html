@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>許瑞月個人作品藝廊</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+<header class="top">
+ <button class="brand" data-go="home">許瑞月</button>
+ <nav aria-label="主選單" id="nav">
+  <button data-go="home" aria-current="page">首頁</button>
+  <button data-go="works">作品</button>
+  <button data-go="collections">系列</button>
+  <button data-go="videos">教學</button>
+  <button data-go="about">關於</button>
+ </nav>
+</header>
+<main>
+<section id="p-home" class="page on">
+ <div class="hero">
+  <div class="name"><h1 aria-label="許瑞月"><i>許</i><i>瑞</i><i>月</i></h1><span class="seal" aria-hidden="true"><i>藝</i><i>廊</i></span></div>
+  <div class="stagewrap">
+   <div class="rail"><div class="hang-row" id="hang"></div></div>
+   <div class="lead">
+    <div><p class="sub">水墨・仕女・山水花鳥</p><p class="mute">師承家兄李登勝教授啟蒙,拜入歐豪年教授門下,對水墨仕女特別衷愛。</p></div>
+    <div style="display:flex;gap:14px;align-items:center"><div class="arrows"><button id="prev" aria-label="往左看">‹</button><button id="next" aria-label="往右看">›</button></div><button class="go" data-go="works">瀏覽全部作品</button></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="p-works" class="page"><div class="wrap">
+ <h2>作品</h2><p class="mute" id="count"></p>
+ <div class="bar" id="chips" role="group" aria-label="作品分類"></div>
+ <div class="grid" id="grid"></div>
+</div></section>
+
+<section id="p-collections" class="page"><div class="wrap">
+ <h2>系列</h2><div id="cols"></div>
+ <h2 class="sub2">創作年表</h2><div id="tl"></div>
+</div></section>
+
+<section id="p-videos" class="page"><div class="wrap">
+ <h2>教學影片</h2>
+ <div class="vids">
+  <div><div class="frame"><iframe src="https://www.youtube.com/embed/EEzXYq4TRP0" title="教學影片(一)" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe></div><h3>教學影片(一)</h3><a class="ghost" href="https://youtu.be/EEzXYq4TRP0" target="_blank" rel="noopener">在 YouTube 觀看</a></div>
+  <div><div class="frame"><iframe src="https://www.youtube.com/embed/oaiLgxe7AC8" title="教學影片(二)" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe></div><h3>教學影片(二)</h3><a class="ghost" href="https://youtu.be/oaiLgxe7AC8" target="_blank" rel="noopener">在 YouTube 觀看</a></div>
+ </div>
+</div></section>
+
+<section id="p-about" class="page"><div class="wrap">
+ <h2>關於藝術家</h2>
+ <div class="about">
+  <div><img class="portrait" alt="許瑞月" src="images/portrait.jpg"></div>
+  <div>
+   <h3>學會職務</h3>
+   <p>桃園市大地藝文學會創會會長<br>臺灣新世紀文化藝術協會副理事長<br>中華文耀文教經貿交流協會副理事長<br>平鎮市民大學教師聯誼會<br>桃園市老人大學教師會副會長</p>
+   <h3>教學</h3>
+   <p>元智大學中國語文系<br>健行科大<br>桃園市中壢、楊梅樂齡多所學校書法國畫講師</p>
+   <h3>獲獎與展覽</h3>
+   <ul class="honors">
+    <li><b>2024</b>榮獲吉隆坡 19 國舉辦第一屆國際創意美術獎。</li>
+    <li><b>2023</b>獲邀義大利歐華文化藝術國際交流書畫名家菁英邀請展,於波隆納。</li>
+    <li><b>2016 至 2019</b>連續四年獲樂齡講師及課程優良評選與課程規劃師特優獎。</li>
+    <li><b>2014</b>舊金山紀念館舉辦許瑞月彩個展。</li>
+    <li><b>2012</b>接任善播文化扇播愛桃園區總召集人,召集兩千位藝術家出席活動。</li>
+    <li><b>2004</b>榮獲運紀念碑書畫藝文賽及臺灣十二大傑出名師獎。</li>
+   </ul>
+   <p>另榮獲鄭州百大國畫人物畫家獎。</p>
+   <h3>出版</h3>
+   <ol class="pubs"><li>許瑞月畫集第一集</li><li>許瑞月書畫第二集-北美巡禮</li><li>六十有夢許瑞月書畫集</li><li>許瑞月師生畫集第一集</li><li>許瑞月師生畫集第二集</li><li>大地藝文書畫第一集</li><li>大地藝文書畫第二集</li><li>大地藝文書畫第三集</li></ol>
+   <h3>聯絡</h3>
+   <p>Instagram:<a href="https://www.instagram.com/srye45ss" target="_blank" rel="noopener">@srye45ss</a><br>e-Mail:<a href="mailto:srye45@gmail.com">srye45@gmail.com</a><br>Facebook:<a href="https://www.facebook.com/share/1FGH3vwah6/?mibextid=wwXIfr" target="_blank" rel="noopener">許瑞月的 Facebook</a></p>
+  </div>
+ </div>
+</div></section>
+</main>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="作品詳情">
+ <div class="st" id="st"></div>
+ <aside id="info"></aside>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
