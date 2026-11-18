@@ -4,11 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>許瑞月個人作品藝廊</title>
+<meta name="description" content="許瑞月個人作品藝廊，收錄水墨仕女、山水花鳥、書法與手繪文創，並提供創作年表、教學影片及藝術家簡介。">
+<meta name="theme-color" content="#dde3de" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161b1e" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="許瑞月個人作品藝廊">
+<meta property="og:description" content="許瑞月個人作品藝廊，收錄水墨仕女、山水花鳥、書法與手繪文創，並提供創作年表、教學影片及藝術家簡介。">
+<meta property="og:image" content="images/works/001.jpg">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='4'%20fill='%23b4372d'/%3E%3Crect%20x='4'%20y='4'%20width='56'%20height='56'%20rx='2'%20fill='none'%20stroke='%23f7efe4'/%3E%3Ctext%20x='32'%20y='46'%20text-anchor='middle'%20font-family='serif'%20font-size='41'%20fill='%23f7efe4'%3E%E8%A8%B1%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "許瑞月",
+  "jobTitle": "水墨畫家",
+  "description": "師承家兄李登勝教授啟蒙,拜入歐豪年教授門下,對水墨仕女特別衷愛。",
+  "image": "images/portrait.jpg",
+  "sameAs": [
+    "https://www.instagram.com/srye45ss",
+    "https://www.facebook.com/share/1FGH3vwah6/?mibextid=wwXIfr"
+  ]
+}
+</script>
 </head>
 <body>
 <div id="app">
@@ -25,30 +47,30 @@
 <main>
 <section id="p-home" class="page on">
  <div class="hero">
-  <div class="name"><h1 aria-label="許瑞月"><i>許</i><i>瑞</i><i>月</i></h1><span class="seal" aria-hidden="true"><i>藝</i><i>廊</i></span></div>
+  <div class="name"><h1 aria-label="許瑞月" tabindex="-1"><i>許</i><i>瑞</i><i>月</i></h1><span class="seal" aria-hidden="true"><i>藝</i><i>廊</i></span></div>
   <div class="stagewrap">
    <div class="rail"><div class="hang-row" id="hang"></div></div>
    <div class="lead">
     <div><p class="sub">水墨・仕女・山水花鳥</p><p class="mute">師承家兄李登勝教授啟蒙,拜入歐豪年教授門下,對水墨仕女特別衷愛。</p></div>
-    <div style="display:flex;gap:14px;align-items:center"><div class="arrows"><button id="prev" aria-label="往左看">‹</button><button id="next" aria-label="往右看">›</button></div><button class="go" data-go="works">瀏覽全部作品</button></div>
+    <div class="lead-actions"><div class="arrows"><button id="prev" aria-label="往左看">‹</button><button id="next" aria-label="往右看">›</button></div><button class="go" data-go="works">瀏覽全部作品</button></div>
    </div>
   </div>
  </div>
 </section>
 
 <section id="p-works" class="page"><div class="wrap">
- <h2>作品</h2><p class="mute" id="count"></p>
+ <h2 tabindex="-1">作品</h2><p class="mute" id="count" role="status"></p>
  <div class="bar" id="chips" role="group" aria-label="作品分類"></div>
  <div class="grid" id="grid"></div>
 </div></section>
 
 <section id="p-collections" class="page"><div class="wrap">
- <h2>系列</h2><div id="cols"></div>
+ <h2 tabindex="-1">系列</h2><div id="cols"></div>
  <h2 class="sub2">創作年表</h2><div id="tl"></div>
 </div></section>
 
 <section id="p-videos" class="page"><div class="wrap">
- <h2>教學影片</h2>
+ <h2 tabindex="-1">教學影片</h2>
  <div class="vids">
   <div><div class="frame"><iframe src="https://www.youtube.com/embed/EEzXYq4TRP0" title="教學影片(一)" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe></div><h3>教學影片(一)</h3><a class="ghost" href="https://youtu.be/EEzXYq4TRP0" target="_blank" rel="noopener">在 YouTube 觀看</a></div>
   <div><div class="frame"><iframe src="https://www.youtube.com/embed/oaiLgxe7AC8" title="教學影片(二)" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe></div><h3>教學影片(二)</h3><a class="ghost" href="https://youtu.be/oaiLgxe7AC8" target="_blank" rel="noopener">在 YouTube 觀看</a></div>
@@ -56,9 +78,9 @@
 </div></section>
 
 <section id="p-about" class="page"><div class="wrap">
- <h2>關於藝術家</h2>
+ <h2 tabindex="-1">關於藝術家</h2>
  <div class="about">
-  <div><img class="portrait" alt="許瑞月" src="images/portrait.jpg"></div>
+  <div><img class="portrait wash" alt="許瑞月" src="images/portrait.jpg" width="560" height="687" loading="lazy" decoding="async"></div>
   <div>
    <h3>學會職務</h3>
    <p>桃園市大地藝文學會創會會長<br>臺灣新世紀文化藝術協會副理事長<br>中華文耀文教經貿交流協會副理事長<br>平鎮市民大學教師聯誼會<br>桃園市老人大學教師會副會長</p>
@@ -84,10 +106,21 @@
 </main>
 </div>
 
-<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="作品詳情">
+<dialog class="lb" id="lb" aria-modal="true" aria-label="作品詳情">
  <div class="st" id="st"></div>
- <aside id="info"></aside>
-</div>
+ <div class="details">
+  <div class="tools">
+   <button id="x" autofocus>關閉</button>
+   <span class="mute" id="position" aria-hidden="true"></span>
+   <div class="steps" id="steps">
+    <button data-step="-1" aria-label="上一件">上一件</button>
+    <button data-step="1" aria-label="下一件">下一件</button>
+   </div>
+  </div>
+  <aside id="info" tabindex="0" aria-label="作品資料"></aside>
+ </div>
+ <p class="sr-only" id="announcement" role="status"></p>
+</dialog>
 
 <script src="js/data.js"></script>
 <script src="js/app.js"></script>
